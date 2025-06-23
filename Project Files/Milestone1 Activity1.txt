@@ -1,0 +1,44 @@
+Let’s break down Milestone 1: Define Problem, starting with:
+
+✅ Activity 1: Specify the Diabetic Results
+Even though our project is about Liver Cirrhosis, "diabetic results" is mentioned. If this is related to liver patients who also have diabetes, we can define the problem accordingly.
+
+Here’s how to tackle this activity:
+
+🎯 Objective of Activity 1:
+Identify and specify what kind of diabetic-related results are relevant in liver cirrhosis prediction, especially if diabetes is one of the risk factors or features in our dataset.
+
+🧠 Step-by-Step Breakdown:
+1. Contextualize the Problem
+Diabetes is often a comorbidity for liver diseases like cirrhosis. The presence of diabetes may affect the liver’s condition and progression of cirrhosis. So, understanding and incorporating diabetic results is valuable.
+
+2. Explore the Dataset
+Look for columns/features like:
+
+Diabetes: Yes/No or 1/0
+
+Fasting Blood Sugar (FBS)
+
+HbA1c (Glycated hemoglobin)
+
+Blood Glucose Random
+
+Any other diabetes-related metric
+
+❓ Does our dataset include any of these? If yes, these form our diabetic results.
+
+3. Specify the Diabetic Results
+We can write this section as:
+
+Diabetic Results Specification:
+In this study, diabetic indicators such as Fasting Blood Sugar (FBS) and presence of diagnosed diabetes have been considered as potential risk factors for liver cirrhosis. These parameters are extracted from the dataset and analyzed for their correlation with liver disease severity. Diabetic patients are identified based on [insert condition, e.g., FBS > 126 mg/dL or diabetes=1].
+
+4. Why It Matters
+Patients with diabetes are more susceptible to liver complications due to insulin resistance and fatty liver buildup. Including diabetic indicators in the machine learning model may enhance the predictive accuracy of liver cirrhosis.
+
+📌 Example Output (We Can Copy/Edit):
+Milestone 1: Define the Problem
+Activity 1: Specify the Diabetic Results
+
+Diabetes is a significant comorbidity associated with liver cirrhosis. In this project, we analyze diabetic-related parameters such as fasting blood sugar levels and the presence of diagnosed diabetes. These features are considered to assess their influence on liver health and their contribution to predicting cirrhosis using machine learning. By identifying the relationship between diabetes and liver damage, the model aims to improve early detection and personalized care strategies.
+
